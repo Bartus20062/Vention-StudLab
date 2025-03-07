@@ -1,7 +1,8 @@
-*{
-    margin:0;
+* {
+    margin: 0;
 }
-.head{
+
+.head {
     height: 40px;
     width: 100%;
     padding: 12px 0;
@@ -9,150 +10,515 @@
     justify-content: space-between;
     display: flex;
     flex-direction: row;
-    
-}
-@media (300px <= width <=450px) {
-    .head {
-        flex-direction: column;
-        width: 20px;
-    }
-  }
-  
-   @media (100px <= width <=450px) {
-    .nav {
-        flex-direction: column;
-    }
-  } 
 
-.price{
+}
+
+.price {
     padding-top: 12px;
     font-size: 15px;
     margin-left: 110px;
-    gap: 40px;
+
 }
 
-.color{
-    color:red;
+.color {
+    color: red;
 }
-.colorr{
+
+.colorr {
     color: green;
 }
-.main{
+
+#sec {
+    max-width: 1200px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    padding: 0px 120px;
 }
-.nav{
-    margin-top: 15px;
-    margin-left:100px;
-    font-size: 19px;
-    margin-right: 40px;
+
+main {
+    margin: auto;
     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 1440px;
+
+}
+
+#secLeft {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#secRight {
+    max-width: 50%;
+}
+
+.nav {
+    max-width: 1200px;
+    font-size: 19px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
     gap: 40px;
     color: black;
     text-decoration: none;
-    position: relative;
+    float: right;
+    padding-right: 110px;
 }
-.img{
-    float:left;
+
+.img {
+    float: left;
     height: 28px;
     width: 135px;
+    padding-top: 10px;
     margin-left: 110px;
     top: 73px;
 }
 
-.regcolor{
+.regcolor {
     padding: 5px 15px;
     color: #2F80ED;
     border: 1px solid #2F80ED;
 }
-.col{
+
+.col {
     color: black;
+
 }
-.nav a{
+
+.nav a {
     text-decoration: none;
+    padding-top: 15px;
+
 }
-.Rectangle{
+
+.Rectangle {
     height: 45px;
     top: 1px;
     width: 1px;
     color: #DDDDDD;
     position: relative;
 }
-.mainRec{
+
+.mainRec {
     height: 40px;
     width: 100%;
     background-color: #2F80ED;
     justify-content: center;
-    display: flex; 
+    display: flex;
     position: relative;
     align-items: center;
 }
-.txt{
+
+.txt {
     color: #DDDDDD;
     font-size: 15px;
 }
-.text{
+
+.text {
     margin-top: 30px;
     margin-left: 120px;
     font-size: 46px;
 }
-.images{
-    
+
+.images {
+
     float: right;
     padding-right: 80px;
     display: flex;
 }
-.ip1{
-    padding-top:10px;
-   
+
+.ip1 {
+    padding-top: 10px;
+
 }
 
-.txt1{
+.txt1 {
     margin-left: 5px;
     font-size: 15px;
 }
-.start{
+
+.start {
+
     display: flex;
     align-items: center;
-    position: relative;
-    padding-left: 120px;
-    padding-top: 40px;
+    flex-direction: row;
 }
-.apple{
+
+.apple {
     padding-left: 30px;
 }
-.android{
-    padding-left:22px;
+
+.android {
+    padding-left: 22px;
 }
-.tekst{
+
+.tekst {
     display: flex;
     align-items: center;
-    position: relative;
+    flex-direction: row;
+
 }
-.tekst1{
-    margin-top:40px;
-    margin-left: 120px;
-    font-size: 16px;
+
+.tekst p {
+    padding-top: 40px;
+    align-items: center;
 }
-.Bulion{
+
+.Bulion {
     padding-top: 40px;
     padding-left: 10px;
 }
-.plus{
+
+.plus {
     padding-top: 40px;
     padding-left: 13px;
 }
-.mark{
+
+.mark {
     padding-top: 40px;
     padding-left: 13px;
 }
-.rec{
-    display: flex;
-    align-items: center;
-    position: relative;
-}
-.rec25{
-    padding-top:80px;
+
+
+.rec25 {
+    padding-top: 60px;
     padding-left: 420px;
+    width: 600px;
+
+}
+
+.midhead {
+    font-size: 46px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.midtxt {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.con {
+    display: flex;
+    gap: 20px;
+
+}
+
+.con .left {
+    flex: 1;
+}
+
+.inside {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.inside h3 {
+    margin: 0 0 5px 0;
+}
+
+.inside p {
+    margin: 0;
+}
+
+.right .ss {
+    padding-right: 180px;
+    width: 619px;
+    height: 454px;
+    float: right;
+
+}
+
+.inside .imag {
+    height: 80px;
+    width: 69px;
+    padding-left: 120px;
+
+}
+
+.inside .imag2 {
+    height: 80px;
+    width: 70px;
+    padding-left: 120px;
+}
+
+.inside .imag3 {
+    height: 69px;
+    width: 70px;
+    padding-left: 120px;
+}
+
+.inside .imag4 {
+    height: 80px;
+    width: 47px;
+    padding-left: 130px;
+
+}
+
+.inside .h4 {
+    margin-left: 15px;
+}
+
+.con {
+    padding-top: 50px;
+}
+
+.rec30 {
+    padding-top: 90px;
+    padding-left: 420px;
+    width: 600px;
+}
+
+.tab {
+    font-size: 40px;
+    padding-left: 500px;
+    width: 100%;
+}
+
+.prod .s {
+    color: red;
+}
+
+.prod .w {
+    color: green;
+}
+
+
+td,
+th {
+    width: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+tr {
+    border: 1px solid #2F80ED;
+}
+
+.tab3 {
+    border-collapse: collapse;
+    height: 330px;
+    margin-top: 20px;
+    border-style: hidden;
+    border: 1px solid #2F80ED;
+    max-width: auto;
+    padding-left: 120px;
+}
+
+.prod {
+    align-items: center;
+    display: flex;
+    padding-left: 370px;
+}
+
+.our {
+    text-align: center;
+    font-size: 46px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.rect26 {
+    padding-top: 60px;
+    padding-left: 420px;
+    width: 600px;
+}
+
+.why {
+    text-align: center;
+    font-size: 46px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.why1 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+#ojciec {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 45;
+    justify-content: center;
+    max-width: 1200px;
+}
+
+.child1 {
+    flex-basis: 30%;
+    text-align: center;
+}
+
+#father {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.rec28 {
+    padding-top: 60px;
+    padding-left: 420px;
+    width: 600px;
+}
+
+.gold {
+    text-align: center;
+    font-size: 46px;
+    margin-top: 60px;
+    margin-left: 90px;
+}
+
+.gold1 {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+#matka {
+    display: flex;
+    /* align-items: center; */
+    padding-left: 70px;
+    padding-top: 30px;
+    gap: 20px;
+}
+
+.rec29 {
+    padding-top: 60px;
+    padding-left: 420px;
+    width: 600px;
+}
+
+.blog {
+    text-align: center;
+    font-size: 46px;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+
+.blog1 {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+#ceo {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 45;
+    justify-content: center;
+    max-width: 1200px;
+    gap: 20px;
+    padding-left: 120px;
+
+}
+
+#hr {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 40px;
+}
+
+.emplo h2 {
+    padding-top: 20px;
+    padding-bottom: 12px;
+}
+
+.emplo p {
+    padding-bottom: 12px;
+}
+
+.botton a {
+    text-decoration: none;
+    color: #828282;
+}
+
+.botton p {
+    color: #828282;
+    margin-top: 10px;
+}
+
+.botton h2 {
+    padding-bottom: 16px;
+}
+
+#dol {
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    
+
+}
+
+#dolrec {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 100px;
+}
+
+.emailbox {
+    padding: 10px;
+}
+
+.subutton {
+    height: 40px;
+    background-color: #2F80ED;
+    color: white;
+    font-size: 15px;
+    
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+hr {
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    max-width: 1250px;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+.pa{
+    padding-top: 20px;
+   
+    
+}
+#payment .pa1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    
+    
+}
+#payment .rightpay{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+.sponsors{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+#spon {
+    width: 50%;
+    display: flex;
+    gap: 30px;
+}
+#kon{
+    max-width: 1200px;
+    margin: auto;
 }
