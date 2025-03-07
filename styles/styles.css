@@ -2,17 +2,24 @@
     margin: 0;
 }
 
+#hh{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #D4F1F4;
+}
 .head {
     height: 40px;
-    width: 100%;
+    width: 1200px;
     padding: 12px 0;
-    background-color: #D4F1F4;
-    justify-content: space-between;
-    display: flex;
-    flex-direction: row;
-
+    
 }
-
+#mm{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
 .price {
     padding-top: 12px;
     font-size: 15px;
@@ -44,6 +51,7 @@ main {
 
 }
 
+
 #secLeft {
     display: flex;
     flex-direction: column;
@@ -60,12 +68,14 @@ main {
     margin: auto;
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 50px;
     color: black;
     text-decoration: none;
-    float: right;
-    padding-right: 110px;
+    /* float: right; */
+    /* padding-right: 110px; */
+
 }
+
 
 .img {
     float: left;
