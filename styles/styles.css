@@ -5,26 +5,22 @@
 #hh{
     display: flex;
     width: 100%;
+    align-items: center;
     justify-content: center;
     background-color: #D4F1F4;
 }
-.head {
-    height: 40px;
-    width: 1200px;
-    padding: 12px 0;
-    
-}
-#mm{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    
-}
-.price {
-    padding-top: 12px;
-    font-size: 15px;
-    margin-left: 110px;
 
+#mm{
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    padding: 0px 120px;
+    
+}
+
+.price {
+    font-size: 15px;
+    display: flex;
 }
 
 .color {
@@ -57,6 +53,12 @@ main {
     flex-direction: column;
     width: 50%;
 }
+#secLeft p{
+    margin-top: 0px;
+}
+#secLeft h1{
+    margin-bottom: 20px;
+}
 
 #secRight {
     max-width: 50%;
@@ -71,19 +73,16 @@ main {
     gap: 50px;
     color: black;
     text-decoration: none;
-    /* float: right; */
-    /* padding-right: 110px; */
+    margin-left: 350px;
 
 }
-
-
 .img {
-    float: left;
     height: 28px;
     width: 135px;
     padding-top: 10px;
-    margin-left: 110px;
+    
     top: 73px;
+    flex-direction: row;
 }
 
 .regcolor {
@@ -154,6 +153,7 @@ main {
     display: flex;
     align-items: center;
     flex-direction: row;
+    margin-top: 40px;
 }
 
 .apple {
@@ -174,6 +174,7 @@ main {
 .tekst p {
     padding-top: 40px;
     align-items: center;
+    display: flex;
 }
 
 .Bulion {
@@ -443,7 +444,9 @@ tr {
 .emplo p {
     padding-bottom: 12px;
 }
-
+.emplo img{
+    padding-bottom: 20px;
+}
 .botton a {
     text-decoration: none;
     color: #828282;
@@ -458,23 +461,7 @@ tr {
     padding-bottom: 16px;
 }
 
-#dol {
-    height: 600px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    background-color: #F2F2F2;
-    
 
-}
-
-#dolrec {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-    gap: 100px;
-}
 
 .emailbox {
     padding: 10px;
@@ -494,28 +481,30 @@ hr {
     height: 1px;
     background-color: rgb(255, 255, 255);
     max-width: 1250px;
-    margin-left: 90px;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .pa{
-    padding-top: 20px;
-   
-    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
 }
 #payment .pa1{
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
-    align-items: center;
+    gap: 10px;
+    
     
     
 }
 #payment .rightpay{
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 5px;
     align-items: center;
+    padding-left: 50px;
 }
 .sponsors{
     display: flex;
@@ -531,4 +520,64 @@ hr {
 #kon{
     max-width: 1200px;
     margin: auto;
+}
+
+.head {
+    width: 100%;
+    max-width: 1200px;
+    padding: 12px 20px;
+    margin-top: 12px;
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#dol {
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+#dolrec {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+    padding-top: 20px;
+}
+
+
+/* --- Media Queries --- */
+@media (max-width: 768px) {
+    .head {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #dolrec {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #spon {
+        flex-direction: column;
+        gap: 15px;
+    }
+    #mm{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .txt{
+        flex-direction: column;
+        gap: 15px;
+    }
 }
