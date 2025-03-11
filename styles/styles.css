@@ -544,7 +544,7 @@ hr {
     background-color: #F2F2F2;
     padding: 20px;
     align-items: center;
-    text-align: center;
+    
 }
 
 #dolrec {
@@ -557,11 +557,14 @@ hr {
 }
 
 
-/* --- Media Queries --- */
-@media (max-width: 768px) {
+/* Validation */
+@media (max-width: 812px) {
     .head {
+        max-width: 100%;
+        width: 100vw;
+        padding: 10px;
         flex-direction: column;
-        gap: 15px;
+        text-align: center;
     }
 
     #dolrec {
@@ -580,6 +583,25 @@ hr {
     }
     .txt{
         flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+    }
+    .img{
+        max-width: 100%;
+        height: auto;
+        
+    }
+    #dol{
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    #hh{
+        flex-direction: column;
         gap: 15px;
     }
 }
+
+    
+
