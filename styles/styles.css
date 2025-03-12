@@ -2,22 +2,27 @@
     margin: 0;
 }
 
-#hh{
+#hh {
     display: flex;
-    width: 100%;
     align-items: center;
     justify-content: center;
-    background-color: #D4F1F4;
+    width: 100%;
+    background-color: #d4f1f4;
 }
 
-#mm{
-    max-width: 1200px;
+#mm {
     display: flex;
+    justify-content: center;
     align-items: center;
     padding: 0px 120px;
-    
-}
+    max-width: 1200px;
+    margin: auto;
+    gap: 60px;
 
+}
+.ss{
+    max-width: 100%;
+}
 .price {
     font-size: 15px;
     display: flex;
@@ -30,12 +35,18 @@
 .colorr {
     color: green;
 }
-
+#third{
+    width: 1200px;
+    align-items: center;
+    padding: 0px 120px;
+    margin: auto;
+}
 #sec {
     max-width: 1200px;
     display: flex;
     align-items: center;
     padding: 0px 120px;
+    margin: auto;
 }
 
 main {
@@ -43,26 +54,26 @@ main {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 1440px;
-
+    align-items: center;
 }
 
 
-#secLeft {
+#secLeft,
+#secRight {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 50%;
 }
-#secLeft p{
+
+#secLeft p {
     margin-top: 0px;
 }
-#secLeft h1{
+
+#secLeft h1 {
     margin-bottom: 20px;
 }
 
-#secRight {
-    max-width: 50%;
-}
 
 .nav {
     max-width: 1200px;
@@ -70,12 +81,12 @@ main {
     margin: auto;
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 70px;
     color: black;
     text-decoration: none;
-    margin-left: 350px;
 
 }
+
 .img {
     height: 28px;
     width: 135px;
@@ -109,7 +120,7 @@ main {
     position: relative;
 }
 
-.mainRec {
+#mainRec {
     height: 40px;
     width: 100%;
     background-color: #2F80ED;
@@ -164,10 +175,12 @@ main {
 }
 
 .tekst {
+    margin-top: 30px;
+    font-size: 16px;
     display: flex;
-    align-items: center;
-    flex-direction: row;
-
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
 }
 
 .tekst p {
@@ -175,6 +188,7 @@ main {
     align-items: center;
     display: flex;
 }
+
 
 .Bulion {
     padding-top: 40px;
@@ -194,9 +208,6 @@ main {
 
 .rec25 {
     padding-top: 60px;
-    padding-left: 420px;
-    width: 600px;
-
 }
 
 .midhead {
@@ -210,14 +221,11 @@ main {
     text-align: center;
 }
 
-.con {
-    display: flex;
-    gap: 20px;
 
-}
 
-.con .left {
-    flex: 1;
+ .left {
+    /* flex: 1; */
+    width: 50%;
 }
 
 .inside {
@@ -235,37 +243,37 @@ main {
     margin: 0;
 }
 
-.right .ss {
-    padding-right: 180px;
-    width: 619px;
+.right {
+    width: 50%;
     height: 454px;
-    float: right;
+    /* float: right; */
+    padding-left: 40px;
 
 }
 
 .inside .imag {
     height: 80px;
     width: 69px;
-    padding-left: 120px;
+
 
 }
 
 .inside .imag2 {
     height: 80px;
     width: 70px;
-    padding-left: 120px;
+    
 }
 
 .inside .imag3 {
     height: 69px;
     width: 70px;
-    padding-left: 120px;
+    
 }
 
 .inside .imag4 {
     height: 80px;
     width: 47px;
-    padding-left: 130px;
+    
 
 }
 
@@ -273,21 +281,13 @@ main {
     margin-left: 15px;
 }
 
-.con {
-    padding-top: 50px;
-}
 
 .rec30 {
-    padding-top: 90px;
-    padding-left: 420px;
-    width: 600px;
+    padding-top: 20px;
+  
 }
 
-.tab {
-    font-size: 40px;
-    padding-left: 500px;
-    width: 100%;
-}
+
 
 .prod .s {
     color: red;
@@ -302,7 +302,8 @@ td,
 th {
     width: auto;
     text-align: center;
-    padding: 10px;
+    padding: 20px 40px;
+    
 }
 
 tr {
@@ -315,17 +316,32 @@ tr {
     margin-top: 20px;
     border-style: hidden;
     border: 1px solid #2F80ED;
-    max-width: auto;
-    padding-left: 120px;
+
 }
 
-.prod {
-    align-items: center;
+
+#productCon{
     display: flex;
-    padding-left: 370px;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: auto;
+}
+.why,
+.con,
+.pa {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: row;
+    width: 100%;
+    margin: auto;
+    max-width: 1200px;
+    
 }
 
-.our {
+#productCon .our {
     text-align: center;
     font-size: 46px;
     margin-top: 60px;
@@ -333,17 +349,11 @@ tr {
 }
 
 .rect26 {
-    padding-top: 60px;
-    padding-left: 420px;
-    width: 600px;
+    align-items: center;
+    padding-top: 20px;
 }
 
-.why {
-    text-align: center;
-    font-size: 46px;
-    margin-top: 60px;
-    margin-bottom: 20px;
-}
+
 
 .why1 {
     padding-top: 20px;
@@ -353,7 +363,6 @@ tr {
 #ojciec {
     display: flex;
     flex-wrap: wrap;
-    row-gap: 45;
     justify-content: center;
     max-width: 1200px;
 }
@@ -366,13 +375,13 @@ tr {
 #father {
     display: flex;
     justify-content: center;
-    padding-top: 50px;
+    width: 100%;
+    max-width: 1200px;
 }
 
 .rec28 {
     padding-top: 60px;
-    padding-left: 420px;
-    width: 600px;
+
 }
 
 .gold {
@@ -391,7 +400,6 @@ tr {
 
 #matka {
     display: flex;
-    /* align-items: center; */
     padding-left: 70px;
     padding-top: 30px;
     gap: 20px;
@@ -399,8 +407,8 @@ tr {
 
 .rec29 {
     padding-top: 60px;
-    padding-left: 420px;
-    width: 600px;
+
+
 }
 
 .blog {
@@ -443,9 +451,11 @@ tr {
 .emplo p {
     padding-bottom: 12px;
 }
-.emplo img{
+
+.emplo img {
     padding-bottom: 20px;
 }
+
 .botton a {
     text-decoration: none;
     color: #828282;
@@ -487,39 +497,39 @@ hr {
     margin-bottom: 30px;
 }
 
-.pa{
+
+#payment .pa1 {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
     gap: 10px;
-    align-items: center;
+
+
+
 }
-#payment .pa1{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    
-    
-    
-}
-#payment .rightpay{
+
+#payment .rightpay {
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
     align-items: center;
     padding-left: 50px;
 }
-.sponsors{
+
+.sponsors {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     align-items: center;
 }
+
 #spon {
     width: 50%;
     display: flex;
     gap: 30px;
 }
-#kon{
+
+#kon {
     max-width: 1200px;
     margin: auto;
 }
@@ -527,8 +537,8 @@ hr {
 .head {
     width: 100%;
     max-width: 1200px;
-    padding: 12px 20px;
-    margin-top: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     gap: 30px;
     display: flex;
     flex-wrap: wrap;
@@ -538,13 +548,13 @@ hr {
 
 
 #dol {
-    height: auto; 
+    height: auto;
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
     padding: 20px;
     align-items: center;
-    
+
 }
 
 #dolrec {
@@ -558,11 +568,9 @@ hr {
 
 
 /* Validation */
-@media (max-width: 812px) {
+@media (max-width: 800px) {
     .head {
         max-width: 100%;
-        width: 100vw;
-        padding: 10px;
         flex-direction: column;
         text-align: center;
     }
@@ -577,31 +585,112 @@ hr {
         flex-direction: column;
         gap: 15px;
     }
-    #mm{
+
+    #mm {
         flex-direction: column;
         gap: 15px;
     }
-    .txt{
+
+    .txt {
         flex-direction: column;
         align-items: center;
         text-align: center;
         gap: 15px;
     }
-    .img{
+
+    .img {
         max-width: 100%;
         height: auto;
-        
+
     }
-    #dol{
+
+    #dol {
         flex-direction: column;
         gap: 15px;
         align-items: center;
     }
-    #hh{
+
+    #hh {
         flex-direction: column;
         gap: 15px;
     }
-}
+    #secRight{
+        width: 50%;
+    }
+    #secLeft{
+        width: 50%;
 
+    }
+    #sec{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .nav{
+        flex-direction: column;
+        gap:0;
+    }
+    #hr{
+        flex-direction: column;
+    }
+    #matka{
+        flex-direction: column;
+    }
     
-
+    .right{
+        width: 100%;
+        padding: 0;
+    }
+    .left{
+        width: 100%;
+    }
+    .con{
+        flex-direction: column;
+    }
+    .pa1{
+        flex-wrap: wrap;
+    }
+    #third{
+        width: 100%;
+        padding: 0;
+    }
+    td{
+        padding: 0;
+    }
+    th{
+        padding: 0;
+    }
+    .ss{
+        padding: 0;
+        width: 80%;
+    }
+    .rec25{
+        width: 100%;
+    }
+    .rec30{
+        width: 100%;
+    }
+    .rect26{
+        width: 100%;
+        padding: 0;
+    }
+    .rec29{
+        width: 100%;
+    }
+    .rec28{
+        width: 100%;
+    }
+    #productCon img{
+        width: 100%;
+    }
+    #ceo{
+        padding: 0;
+    }
+    .start{
+        flex-direction: column;
+    }
+    .tekst{
+        flex-direction: column;
+    }
+}
