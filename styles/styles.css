@@ -1,28 +1,145 @@
 * {
     margin: 0;
 }
+main {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 
-#hh {
+
+/* header */
+#head {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     background-color: #d4f1f4;
 }
+.head1 {
+    width: 100%;
+    max-width: 1200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
 
-#mm {
+
+
+/* nav */
+#main1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px 120px;
+    /* padding: 0px 120px; */
     max-width: 1200px;
     margin: auto;
-    gap: 60px;
+    gap: 90px;
+    position: relative;
+}
+.img {
+    height: 28px;
+    width: 135px;
+    padding-top: 10px;
+    top: 73px;
+    flex-direction: row;
+}
+.regcolor {
+    padding: 5px 15px;
+    color: #2F80ED;
+    border: 1px solid #2F80ED;
+}
+.col {
+    color: black;
+}
+#mainRec {
+    height: 40px;
+    width: 100%;
+    background-color: #2F80ED;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.nav {
+    max-width: 1200px;
+    font-size: 19px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    color: black;
+    text-decoration: none;
+}
+.nav a {
+    text-decoration: none;
+    padding-top: 15px;
 
 }
-.ss{
-    max-width: 100%;
+
+
+
+/* Sec Section */
+#Introduction {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    padding: 0px 120px;
+    margin: auto;
 }
+#secLeft,
+#secRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+#secLeft p {
+    margin-top: 0px;
+}
+#secLeft h1 {
+    margin-bottom: 20px;
+}
+.apple {
+    padding-left: 30px;
+}
+.android {
+    padding-left: 22px;
+}
+.Bulion {
+    padding-top: 40px;
+    padding-left: 10px;
+}
+.plus {
+    padding-top: 40px;
+    padding-left: 13px;
+}
+.mark {
+    padding-top: 40px;
+    padding-left: 13px;
+}
+.tekst {
+    /* margin-top: 30px; */
+    font-size: 16px;
+    display: flex;
+    
+    text-align: center;
+    gap: 15px;
+}
+.tekst p {
+    padding-top: 40px;
+    align-items: center;
+    display: flex;
+}
+
+
+
 .price {
     font-size: 15px;
     display: flex;
@@ -35,100 +152,13 @@
 .colorr {
     color: green;
 }
-#third{
-    width: 1200px;
-    align-items: center;
-    padding: 0px 120px;
-    margin: auto;
-}
-#sec {
-    max-width: 1200px;
-    display: flex;
-    align-items: center;
-    padding: 0px 120px;
-    margin: auto;
-}
-
-main {
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
 
 
-#secLeft,
-#secRight {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
-}
-
-#secLeft p {
-    margin-top: 0px;
-}
-
-#secLeft h1 {
-    margin-bottom: 20px;
-}
 
 
-.nav {
-    max-width: 1200px;
-    font-size: 19px;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    gap: 70px;
-    color: black;
-    text-decoration: none;
 
-}
 
-.img {
-    height: 28px;
-    width: 135px;
-    padding-top: 10px;
-    top: 73px;
-    flex-direction: row;
-}
 
-.regcolor {
-    padding: 5px 15px;
-    color: #2F80ED;
-    border: 1px solid #2F80ED;
-}
-
-.col {
-    color: black;
-
-}
-
-.nav a {
-    text-decoration: none;
-    padding-top: 15px;
-
-}
-
-.Rectangle {
-    height: 45px;
-    top: 1px;
-    width: 1px;
-    color: #DDDDDD;
-    position: relative;
-}
-
-#mainRec {
-    height: 40px;
-    width: 100%;
-    background-color: #2F80ED;
-    justify-content: center;
-    display: flex;
-    position: relative;
-    align-items: center;
-}
 
 .txt {
     color: #DDDDDD;
@@ -147,18 +177,12 @@ main {
     padding-right: 80px;
     display: flex;
 }
-
-.ip1 {
-    padding-top: 10px;
-
-}
-
 .txt1 {
     margin-left: 5px;
     font-size: 15px;
 }
 
-.start {
+.GetstartButton {
 
     display: flex;
     align-items: center;
@@ -166,171 +190,66 @@ main {
     margin-top: 40px;
 }
 
-.apple {
-    padding-left: 30px;
+
+
+
+
+
+/* Rectangle */
+.rectangle1 {
+    height: 45px;
+    top: 1px;
+    width: 1px;
+    color: #DDDDDD;
+    position: relative;
 }
 
-.android {
-    padding-left: 22px;
-}
-
-.tekst {
-    margin-top: 30px;
-    font-size: 16px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    gap: 15px;
-}
-
-.tekst p {
-    padding-top: 40px;
-    align-items: center;
-    display: flex;
-}
-
-
-.Bulion {
-    padding-top: 40px;
-    padding-left: 10px;
-}
-
-.plus {
-    padding-top: 40px;
-    padding-left: 13px;
-}
-
-.mark {
-    padding-top: 40px;
-    padding-left: 13px;
-}
-
-
-.rec25 {
+.rectangle2 {
     padding-top: 60px;
 }
+.rectangle3 {
+    padding-top: 20px;
+  
+}
+.rectangle4 {
+    padding-top: 60px;
 
+}
+.rectangle5 {
+    padding-top: 60px;
+}
+.rectangle6 {
+    align-items: center;
+    padding-top: 20px;
+}
+hr {
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    max-width: 1250px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
+/* Middle of site */
+#third{
+    width: 1200px;
+    align-items: center;
+    padding: 0px 120px;
+    margin: auto;
+}
 .midhead {
     font-size: 46px;
     padding-top: 50px;
     text-align: center;
 }
-
 .midtxt {
     padding-top: 20px;
     text-align: center;
 }
-
-
-
- .left {
-    /* flex: 1; */
-    width: 50%;
-}
-
-.inside {
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
-    margin-bottom: 30px;
-}
-
-.inside h3 {
-    margin: 0 0 5px 0;
-}
-
-.inside p {
-    margin: 0;
-}
-
-.right {
-    width: 50%;
-    height: 454px;
-    /* float: right; */
-    padding-left: 40px;
-
-}
-
-.inside .imag {
-    height: 80px;
-    width: 69px;
-
-
-}
-
-.inside .imag2 {
-    height: 80px;
-    width: 70px;
-    
-}
-
-.inside .imag3 {
-    height: 69px;
-    width: 70px;
-    
-}
-
-.inside .imag4 {
-    height: 80px;
-    width: 47px;
-    
-
-}
-
-.inside .h4 {
-    margin-left: 15px;
-}
-
-
-.rec30 {
-    padding-top: 20px;
-  
-}
-
-
-
-.prod .s {
-    color: red;
-}
-
-.prod .w {
-    color: green;
-}
-
-
-td,
-th {
-    width: auto;
-    text-align: center;
-    padding: 20px 40px;
-    
-}
-
-tr {
-    border: 1px solid #2F80ED;
-}
-
-.tab3 {
-    border-collapse: collapse;
-    height: 330px;
-    margin-top: 20px;
-    border-style: hidden;
-    border: 1px solid #2F80ED;
-
-}
-
-
-#productCon{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    max-width: 1200px;
-    margin: auto;
-}
-.why,
-.con,
-.pa {
-
+.con{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -338,52 +257,134 @@ tr {
     width: 100%;
     margin: auto;
     max-width: 1200px;
-    
+}
+ .left {
+    width: 50%;
+    margin: auto;
 }
 
-#productCon .our {
+.inside .imag {
+    height: 80px;
+    width: 69px;
+}
+.inside .imag2 {
+    height: 80px;
+    width: 70px;
+  
+}
+.inside .imag3 {
+    height: 69px;
+    width: 70px;  
+}
+.inside .imag4 {
+    height: 80px;
+    width: 47px;
+}
+.inside .h4 {
+    margin-left: 15px;
+}
+.inside {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.inside h3 {
+    margin: 0 0 5px 0;
+}
+.inside p {
+    margin: 0;
+}
+.right {
+    width: 50%;
+    height: 454px;
+    padding-left: 40px;
+}
+.ss{
+    max-width: 100%;
+}
+
+
+
+
+/* Table */
+#productCon{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: auto;
+}
+#productCon .productConHeader {
     text-align: center;
     font-size: 46px;
     margin-top: 60px;
     margin-bottom: 20px;
 }
-
-.rect26 {
-    align-items: center;
-    padding-top: 20px;
+.tab3 {
+    border-collapse: collapse;
+    height: 330px;
+    margin-top: 20px;
+    border-style: hidden;
+    border: 1px solid #2F80ED;
+}
+.tab3 .down {
+    color: red;
+}
+.tab3 .up {
+    color: green;
+}
+td,
+th {
+    width: auto;
+    text-align: center;
+    padding: 20px 40px;
+}
+tr {
+    border: 1px solid #2F80ED;
 }
 
 
 
-.why1 {
+
+/* "Why choose Us" */
+.whyHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: row;
+    width: 100%;
+    margin: auto;
+    max-width: 1200px;
+}
+.why {
     padding-top: 20px;
     text-align: center;
 }
-
 #ojciec {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     max-width: 1200px;
 }
-
 .child1 {
     flex-basis: 30%;
     text-align: center;
 }
 
-#father {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    max-width: 1200px;
-}
 
-.rec28 {
-    padding-top: 60px;
 
-}
 
+
+
+
+
+
+
+
+
+
+/* "GoldX customers reviews" */
 .gold {
     text-align: center;
     font-size: 46px;
@@ -400,17 +401,13 @@ tr {
 
 #matka {
     display: flex;
-    padding-left: 70px;
+    align-items: center;
+    justify-content: center;
     padding-top: 30px;
-    gap: 20px;
 }
 
-.rec29 {
-    padding-top: 60px;
 
-
-}
-
+/* "Our Blog" */
 .blog {
     text-align: center;
     font-size: 46px;
@@ -432,8 +429,6 @@ tr {
     justify-content: center;
     max-width: 1200px;
     gap: 20px;
-    padding-left: 120px;
-
 }
 
 #hr {
@@ -456,22 +451,35 @@ tr {
     padding-bottom: 20px;
 }
 
-.botton a {
+
+
+/* Footer */
+#dol{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    align-items: center;
+}
+#dolrec{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+    padding-top: 20px;
+}
+.botton a{
     text-decoration: none;
     color: #828282;
 }
-
-.botton p {
+.botton p{
     color: #828282;
     margin-top: 10px;
 }
-
-.botton h2 {
+.botton h2{
     padding-bottom: 16px;
 }
-
-
-
 .emailbox {
     padding: 10px;
     flex: 1;
@@ -489,25 +497,32 @@ tr {
     cursor: pointer;
 }
 
-hr {
-    height: 1px;
-    background-color: rgb(255, 255, 255);
-    max-width: 1250px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
 
 
+/* Sponsors */
 #payment .pa1 {
     display: flex;
-    /* flex-wrap: wrap; */
     flex-direction: row;
     gap: 10px;
-
-
-
 }
+#kon {
+    max-width: 1200px;
+    margin: auto;
+}
+img{
+    height: auto;
+}
+.pa {
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: row;
+    width: 100%;
+    margin: auto;
+    max-width: 1200px;
+    
+}
 #payment .rightpay {
     display: flex;
     flex-wrap: wrap;
@@ -529,47 +544,14 @@ hr {
     gap: 30px;
 }
 
-#kon {
-    max-width: 1200px;
-    margin: auto;
-}
-
-.head {
-    width: 100%;
-    max-width: 1200px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    gap: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-}
-
-
-#dol {
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    background-color: #F2F2F2;
-    padding: 20px;
-    align-items: center;
-
-}
-
-#dolrec {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 80px;
-    padding-top: 20px;
-}
-
 
 /* Validation */
 @media (max-width: 800px) {
-    .head {
+     #head{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .head1 {
         max-width: 100%;
         flex-direction: column;
         text-align: center;
@@ -584,9 +566,10 @@ hr {
     #spon {
         flex-direction: column;
         gap: 15px;
+        align-items: center;
     }
 
-    #mm {
+    #main1 {
         flex-direction: column;
         gap: 15px;
     }
@@ -610,10 +593,7 @@ hr {
         align-items: center;
     }
 
-    #hh {
-        flex-direction: column;
-        gap: 15px;
-    }
+   
     #secRight{
         width: 50%;
     }
@@ -621,7 +601,10 @@ hr {
         width: 50%;
 
     }
-    #sec{
+    .GetstartButton{
+        flex-direction: column;
+    }
+    #Introduction{
         flex-direction: column;
         padding: 0;
         margin: 0;
@@ -637,7 +620,6 @@ hr {
     #matka{
         flex-direction: column;
     }
-    
     .right{
         width: 100%;
         padding: 0;
@@ -665,20 +647,23 @@ hr {
         padding: 0;
         width: 80%;
     }
-    .rec25{
+    .rectangle2{
         width: 100%;
     }
-    .rec30{
+    .rectangle6{
         width: 100%;
     }
-    .rect26{
+    .rectangle2{
+        width: 100%;
+    }
+    .rectangle3{
         width: 100%;
         padding: 0;
     }
-    .rec29{
+    .rectangle4{
         width: 100%;
     }
-    .rec28{
+    .rectangle5{
         width: 100%;
     }
     #productCon img{
@@ -687,10 +672,27 @@ hr {
     #ceo{
         padding: 0;
     }
-    .start{
-        flex-direction: column;
-    }
     .tekst{
         flex-direction: column;
     }
+    .strz{
+        width: 30px;
+        height: 100px;
+    }
+    #matka{
+        padding: 0;
+    }
+    #dol{
+        padding: 0;
+    }
+    .txt{
+        font-size: 10px;
+    }
+    .gold, .gold1{
+        margin: 0;
+    }
+    .blog, .blog1{
+        margin: 0;
+    }
+   
 }
